@@ -6,3 +6,7 @@ ziper = "import zipfile, os\nwith zipfile.ZipFile('spam.rar', 'w') as myzip:\n  
 # расширения файла
 after_point = ['doc', 'docx', 'pdf', 'xls', 'xlsx', 'zip', 'rar', 'mp3', 'mp4', 'mp5', 'jpg', 'gif', 'png', 'ico',
                'flac', 'm4p', 'py', 'cpp', 'h', '7z', 'html', 'js', 'css', 'bpm', 'txt', 'md', 'avi', 'wav', 'ogg', 'mkv', 'dll', 'bin', 'sh']
+
+# Где записывать файл
+where = 'here'
+log = 'yes'
